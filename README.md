@@ -10,7 +10,7 @@ The idea of this project is to provide a quick start to users that have this boa
 LVGL application to it, by default this project execute the `lvgl_demo_widgets` where a collection of
 widgets get drawn on the display allowing the user to interact to it.
 
-This project is itended to be used with MCU Expresso IDE.
+This project is intended to be used with MCU Expresso IDE.
 
 ## Buy
 
