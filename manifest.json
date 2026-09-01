@@ -1,0 +1,41 @@
+{
+    "name": "MIMXRT500-EVK",
+    "maintainer": "LVGL",
+    "hostOperatingsystem": [
+        "Windows",
+        "Linux",
+        "MacOS"
+    ],
+    "environment": [
+        "MCUXpresso"
+    ],
+    "hardware": {
+        "chipVendor": "NXP",
+        "manufacturer": "NXP",
+        "specs": {
+            "MCU": "i.MX RT5xx",
+            "Core": "Cortex-M33 + Cadence DSP",
+            "RAM": "Up to 5 MB internal SRAM",
+            "Flash": "External (QSPI, size depends on board)",
+            "GPU": "2D GPU (VG-Lite)",
+            "Resolution": "Dependent on external display",
+            "Display Size": "Not included on base EVK",
+            "Interface": "MIPI DSI / RGB (via expansion)",
+            "Color Depth": "Up to 32-bit",
+            "Touch Pad": "External (optional)"
+        }
+    },
+    "description": "The NXP i.MX RT500 EVK is a crossover MCU development board with DSP and 2D GPU acceleration. External display required for graphics demos.",
+    "shortDescription": "i.MX RT500 EVK with LVGL",
+    "urlToClone": "https://github.com/lvgl/lv_port_nxp_imxrt500-evk.git",
+    "logos": [
+        "https://raw.githubusercontent.com/lvgl/project-creator/master/meta/images/nxp/logo.svg"
+    ],
+    "image": "https://www.nxp.com/assets/images/en/dev-board-image/MIMXRT595-EVK.jpg",
+    "branches": [
+        "release/v9.4"
+    ],
+    "getStartedInstructions": "Follow the instructions in README.md under \"Run the project\".",
+    "settings": [
+    ]
+}
